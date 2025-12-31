@@ -45,3 +45,16 @@
     max-height: 10rem;
     padding: 1rem;
    }   
+
+/* Moved from inline styles */
+.dropdown-menu,.dropdown-menu li a {
+    background-color: #014279;
+    color: #fff;
+    height: auto;
+}
+div .mySlides {
+    display:none;
+}
+.w3-section{
+    margin-left: 200px;
+}

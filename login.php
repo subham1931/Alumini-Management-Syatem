@@ -56,7 +56,7 @@
 	<!-- //Meta-Tags -->
 	<!-- Stylesheets -->
 	<link href="css/font-awesome.css" rel="stylesheet">
-	<link href="style.css" rel='stylesheet' type='text/css' >
+	<link href="CSS/login.css" rel='stylesheet' type='text/css' >
 	<!--// Stylesheets -->
 	<!--fonts-->
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">

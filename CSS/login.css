@@ -247,8 +247,8 @@ h1 {
     font-size: 3.2em;
     font-weight: 300;
     text-transform: capitalize;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
+    color: #333;
+    /* text-shadow: 1px 1px 1px #000; */
     letter-spacing: 3px;
     padding: 1em 1vw;
     text-align: center;
@@ -269,7 +269,7 @@ h1 {
 
 .w3ls-login label {
     font-size: 16px;
-    color: #fff;
+    color: #333;
     float: left;
     margin-bottom: 15px;
     text-transform: capitalize;
@@ -292,7 +292,7 @@ h1 {
 .w3ls-login input[type="text"],
 .w3ls-login input[type="password"] {
     width: 100%;
-    color: #fff;
+    color: #333 !important;
     outline: none;
      font-size: 15px;
     letter-spacing: 2px;
@@ -300,11 +300,22 @@ h1 {
     padding: 15px 20px;
     box-sizing: border-box;
     border: none;
-     border: 1px solid #eee;
+     border: 1px solid #999;
 	 border-radius: 30px;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 	font-family: 'Source Sans Pro', sans-serif;
-    background: transparent;
+    background: #fff;
+}
+
+/* Fix for browser autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: #333 !important;
 }
 
 .check1 {
@@ -313,7 +324,7 @@ h1 {
 
 label.check {
     float: none;
-    color: #fff;
+    color: #333;
     font-size: 15px;
     cursor: pointer;
 }
@@ -331,7 +342,7 @@ label.check {
 
 .agile-right a {
     font-size: 15px;
-    color: #fff;
+    color: #333;
     margin-bottom: 10px;
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -419,16 +430,16 @@ label.check {
 
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #aaa;
+  color: #555;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #aaa;
+  color: #555;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: #aaa;
+  color: #555;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #aaa;
+  color: #555;
 }
 .w3ls-login input[type=submit] {
     color: #fff;

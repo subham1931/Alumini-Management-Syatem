@@ -1,3 +1,14 @@
+
+.inner-con input#tittle,input#ndate,input#ndescription,input#etittle,input#edate,input#evanue,input#edate,input#etype{
+    width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -101,13 +112,16 @@ li a {
     color:#fff;
     box-shadow: 0 0 1px #ccc;
     -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
     box-shadow:0px 0 0 #31708f inset;
     text-decoration: none;
  }
 
 ul li a:hover{
     -webkit-box-shadow: 0 100px 0 0 #FA6210 inset;
+    box-shadow: 0 100px 0 0 #FA6210 inset;
     background-color: #111;
  } 
 
@@ -580,132 +594,6 @@ a {
     font-size: 0.85em;
 }
 
-/* Fotter CSS */
-.footer {
-    background: #001C32;
-    margin-top: 20px;
-    padding: 3% 0;
-}
-
-.wrap {
-    width: 90%;
-    margin: 0 auto;
-    transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    -ms-transition: all .2s linear;
-}
-
-.footer-grids {
-    padding-bottom: 3%;
-}
-
-.footer-grid {
-    float: left;
-    width: 23%;
-    margin-right: 2%;
-}
-
-.footer-grid h3 {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 1.1em;
-    font-weight: normal;
-}
-
-.fb_reset {
-    background: none;
-    border: 0;
-    border-spacing: 0;
-    color: #000;
-    cursor: auto;
-    direction: ltr;
-    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    letter-spacing: normal;
-    line-height: 1;
-    margin: 0;
-    overflow: visible;
-    padding: 0;
-    text-align: left;
-    text-decoration: none;
-    text-indent: 0;
-    text-shadow: none;
-    text-transform: none;
-    visibility: visible;
-    white-space: normal;
-    word-spacing: normal;
-}
-
-.fb_iframe_widget {
-    display: inline-block;
-    position: relative;
-}
-
-
-li a{
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-.footer-grid ul li a {
-    display: block;
-    padding: 10px 0px;
-    border-bottom: 1px dotted #1A3347;
-    font-size: 0.725em;
-    background-color: #001C32;
-    color: #97C3D9;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-}
-
-.footer-lastgrid {
-    margin: 0;
-}
-
-.footer-grid p {
-    font-size: 0.875em;
-    color: #97C3D9;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.8em;
-}
-
-.email-link {
-    color: #FFF;
-    transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    -webkit-transition: 0.5s ease;
-    text-transform: lowercase;
-}
-
-.clear {
-    clear: both;
-}
-
-.copy-right {
-    text-align: center;
-    padding-top: 2%;
-    border-top: 1px solid #1A3347;
-}
-
-.copy-right p {
-    color: #fff;
-    font-size: 0.85em;
-}
-
 /* ALL-EVENTS */
 .accordion {
     width: 450px;
@@ -743,4 +631,13 @@ a {
    .accordion-body.active {
     max-height: 10rem;
     padding: 1rem;
-   }   
+   }
+
+.dropdown-menu,.dropdown-menu li a {
+    background-color: #014279;
+    color: #fff;
+    height: auto;
+} 
+.inner-box label {
+    margin: 40px 0px 0px 0px;
+}

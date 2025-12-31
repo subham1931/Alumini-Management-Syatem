@@ -28,24 +28,16 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS//dashboard.css">
-        <link rel="stylesheet" href="CSS//dashboard2.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="script.js"></script>
         <script src="https://kit.fontawesome.com/5026e2b9f4.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/updatesession.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>Admission form</title>
-        <style>
-            .dropdown-menu,.dropdown-menu li a {
-                background-color: #014279;
-                color: #fff;
-                height: auto;
-            } 
-        </style>
     </head>
-    <body style="background-color: #01315A;">
+    <body>
     <form action="" method="post">
         <header>
             <div class="container">
@@ -93,7 +85,7 @@
                 <div class="inner-box">
                     <!-- <marquee behavior="" direction="left">welcome to our college</marquee> -->
                     <!-- <h2>WELCOME TO OUR COLLEGE</h2> -->
-                    <label for="course" style="margin:40px 0px 0px 0px;">Course</label><br>
+                    <label for="course">Course</label><br>
             <select name="course" id="course">
                 <option value="Not selected">Select Course</option>
                 <?php
