@@ -59,7 +59,7 @@
                     <span class="number">(06792) 240032</span>
                 </div>
             </div>
-            <nav class="navbar" style="background-color: #014279; width: 1100px; left:150px;">
+            <nav class="navbar" style="background-color: #014279; width: 1100px; margin: 0 auto;">
                 <div class="container-fluid">
                     <ul class="nav navbar-nav" >
                         <li class="active"><a href="Admindashboard.php">Home</a></li>

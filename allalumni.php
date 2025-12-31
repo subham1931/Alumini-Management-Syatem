@@ -63,7 +63,7 @@
                     <span class="number">(06792) 240032</span>
                 </div>
             </div>
-            <nav class="navbar" style="background-color: #014279; width: 1100px; left:150px;">
+            <nav class="navbar" style="background-color: #014279; width: 1100px; margin: 0 auto;">
                 <div class="container-fluid">
                     <ul class="nav navbar-nav" >
                         <li class="active"><a href="Admindashboard.php">Home</a></li>
@@ -130,11 +130,11 @@
                         <tbody>
                         <?php
                             $count=1;
-                              $sql="SELECT * FROM `alumni_master` ORDER BY alumni_id";
+                              $sql="SELECT * FROM `alumni_master` ORDER BY sr_no";
                               $result= mysqli_query($con,$sql);
                               if($result){
                                 while($row = mysqli_fetch_array($result)){
-                                    $aid=$row['alumni_id'];
+                                    $aid=$row['sr_no'];
                                     $cid=$row['course_id'];
                                     $sid=$row['session_id'];
                                     $query3="SELECT * FROM `course_master` WHERE course_id='$cid'";   

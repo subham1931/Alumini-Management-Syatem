@@ -26,7 +26,7 @@
     
     <body>
         <form action="" method="post">
-            <header>
+            <header >
                 <div class="container">
                     <div class="img">
                         <a href="Admindashboard.php">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
 
-                <nav class="navbar" style="background-color: #014279; width: 1100px; left:150px;">
+                <nav class="navbar" style="background-color: #014279; width: 1100px; margin: 0 auto;">
                     <div class="container-fluid">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="userdashboard.php">Home</a></li>
@@ -61,13 +61,13 @@
             </header>
 
             <main>
-                <div class="w3-content w3-section" style="max-width:500px; left:100px;">
-                    <img class="mySlides" src="Image/slide1.jpg" style="width:200%;">
-                    <img class="mySlides" src="Image/slide2.jpg" style="width:200%">
-                    <!-- <img class="mySlides" src="Image/slide3.jpg" style="width:200%; height: 1000%;"> -->
+                <div class="w3-content w3-section" style="max-width:1100px; margin: 0 auto;">
+                    <img class="mySlides" src="Image/slide1.jpg" style="width:100%;">
+                    <img class="mySlides" src="Image/slide2.jpg" style="width:100%">
+                    <!-- <img class="mySlides" src="Image/slide3.jpg" style="width:100%; height: 1000%;"> -->
                 </div>
 
-                <div class="main">
+                <div class="main" style="max-width:1100px; margin: 0 auto;">
                     <div class="leftcon" style="margin-top: 10px; padding: 10px;">
                         <div class="cont1 span_2_of_a about_desc">
                             <h2>Welcome To Our College</h2>
